@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -24,6 +25,11 @@
   color: white;
 }
 
+
+.colors{
+  --main: "#1363DF";
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +41,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  display: flex;
+  flex: 1;
+  
+}
+
+.question{
+  border-radius: 8px;
+  border-color: var(--main) ;
+  border-style:solid;
+  height: 45%;
 }

@@ -1,0 +1,50 @@
+.colors{
+    --main: "#1363DF";
+}
+
+.testFactory{
+    
+   background-color: aqua;
+   width: 99vw;
+   height: 97vh;
+   display: flex;
+   
+   
+}
+
+nav{
+    border: 1px;
+    border-color: black;
+    border-style: double;
+    height: 10%;
+}
+
+.testProducer{
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.questionProducer{
+    resize: none;
+    width: 30%;
+    height: 150px;
+    border-color: var(main) ;
+    border-width: 2px;
+}
+
+.answerProducer{
+    resize: none;
+    width: 30%;
+    height: 50px;
+    border-color: var(main) ;
+    border-width: 2px;
+}
+
+.testCheck{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+    align-self: flex-end;
+}
